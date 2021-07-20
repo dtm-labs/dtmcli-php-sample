@@ -1,0 +1,14 @@
+{
+    "name": "yedf/dtmcli-php-sample",
+    "authors": [
+        {
+            "name": "onlyshow",
+            "email": "onlyxiaoshow@gmail.com"
+        }
+    ],
+    "require": {
+        "mix/vega": "^3.0",
+        "workerman/workerman": "^4.0",
+        "yedf/dtmcli-php": "dev-main"
+    }
+}
