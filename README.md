@@ -2,7 +2,7 @@
 dtmcli的php使用示例
 ## 快速开始
 ### 部署启动dtm
-需要docker版本18以上
+需要docker版本20.04以上
 ```
 git clone https://github.com/yedf/dtm
 cd dtm
