@@ -3,8 +3,8 @@
 require __DIR__ . '/vendor/autoload.php';
 
 function FireTcc () {
-    $dtm = 'http://192.168.69.128:8080/api/dtmsvr';
-    $svc = 'http://192.168.69.128:4005/api';
+    $dtm = 'http://localhost:36789/api/dtmsvr';
+    $svc = 'http://localhost:4005/api';
 
     Dtmcli\tccGlobalTransaction($dtm, function ($tcc) use ($svc) {
         /** @var Dtmcli\Tcc $tcc */
